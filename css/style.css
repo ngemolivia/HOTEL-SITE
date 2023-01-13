@@ -1,0 +1,780 @@
+ *{
+    font-family: 'Raleway', sans-serif;
+    padding: 0;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    box-sizing: border-box;
+    width: auto;
+
+}
+
+.flexcenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexaround{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flexbetween{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flexcolumncenter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexcolumnaround{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.flexcolumnbetween{
+    display: flex;
+    justify-content: space-between;
+   flex-direction: column;
+}
+
+
+/* NAV & LINKS */
+
+.logo{ 
+    height: 50px;
+    width: 120px;
+}
+
+
+
+.links{
+    text-decoration: none;
+    color: black;
+}
+
+.links:hover{
+    color: #0065FC;
+   
+}
+
+.asize{
+    width: 140px;
+    height: 99px;
+  
+}
+
+.asize:hover{
+    width: 140px;
+    height: 99px;
+  border-top: 2px solid #0065FC;
+}
+
+.boxlink2{
+    margin-left: 50%;
+}
+
+/* HEADER */
+
+.search{
+    width: 380px;
+    height: 52px;
+    border-radius: 15px;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px #F2F2F2;
+    margin-top: 20px;
+}
+
+.iconsize{
+    width: 50px;
+    height: 50px;
+    background-color: #F2F2F2;
+    border-radius: 15px 0 0 15px;
+}
+
+.searchbar{
+    width: 230px;
+    height: 50px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    padding-left: 20px;
+}
+
+.btn{
+   background-color:  #0065FC;
+   color: white;
+   width: 130px;
+   height: 50px;
+   cursor: pointer;
+  border-radius: 0 15px 15px 0;
+ 
+}
+
+.deskNone{
+    display: none;
+}
+
+/* FILTER */
+
+
+.filter{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    width: 80%;
+}
+
+.filheading{
+    margin-right: 20px;
+}
+.filtexticon{
+    height: 50px;
+    border: 2px solid #F2F2F2;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+
+.filticon{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    color: #0065FC;
+    background-color: #F2F2F2;
+    padding: 17px;
+    margin-left: -2px;
+}
+
+.filtext{
+    height: 50px;
+    padding: 20px;
+   
+}
+
+.filtexticon > .filticon:hover{
+    color: white;
+    background-color: #0065FC;
+}
+
+
+/* INFO */
+
+.info{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+   
+}
+
+.infoicon{
+    margin-right: 10px;
+    color: #0065FC;
+    border: 1px solid #F2F2F2;
+    border-radius: 20px;
+    width: 30px;
+    height: 30px;
+}
+
+/* SECTION hebergements */
+
+.hebergements{
+    flex: 2;
+    height: 650px;
+    margin-right: 20px;
+    border-radius: 10px;
+    background-color: #F2F2F2;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 40px;
+}
+
+.cubhebergement{
+border-radius: 20px;
+width: 30%;
+height: auto;
+background-color: white;
+padding: 2px;
+box-shadow: 5px 5px 5px 1px #F2F2F2 ;
+}
+
+.cubhebergement:hover{
+cursor: pointer;
+transform: scale(1.1);
+}
+
+
+.contentunderimage{
+margin-top: 10px;
+margin-left: 10px;  
+margin-bottom: 10px;
+}
+
+.bloc1{
+    margin-bottom: 10px;
+    
+}
+
+.bloc2{
+    margin-top: 10px;
+}
+
+.para{
+    font-weight: bold;
+    
+}
+
+
+
+.img1{
+    background-image: url("../images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+
+.img2{
+    background-image: url("../images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+
+.img3{
+    background-image: url("../images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+
+.img4{
+    background-image: url("../images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0
+}
+
+.img5{
+    background-image: url("../images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+
+.img6{
+    background-image: url("../images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+
+}
+
+/* SECTION populaires */
+
+.populaires{
+    flex: 1;
+    height: 650px;
+    margin-left: 20px;
+    border-radius: 10px;
+    background-color: #F2F2F2;
+    margin-bottom:45px;
+}
+
+.blocpopulaires{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.cubpopulaires{
+    border-radius: 20px;
+    height: auto;
+    background-color: white;
+    padding: 2px;
+    }
+
+    .contentunderimagepopulaire{
+        width: 60%;
+        height: auto;
+       
+    }
+
+    .contentafterimage{
+        margin-left: 10px;
+       
+    }
+
+   .head{
+       margin-bottom: 10px;
+       margin-top: 0;
+   }
+
+    .bloc1pop , .bloc2pop{
+        margin-bottom: 20px;
+    }
+
+    .bloc3pop , .bloc2pop{
+        margin-top: 20px;
+    }
+
+
+.img7{
+    background-image: url("../images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 40%;
+    height: 130px;
+    border-radius: 15px 0 0 15px;
+}
+
+.img8{
+    background-image: url("../images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 40%;
+    height: 130px;
+    border-radius: 15px 0 0 15px;
+}
+
+.img9{
+    background-image: url("../images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 40%;
+    height: 130px;
+    border-radius: 15px 0 0 15px;
+
+}
+
+.a{
+    color: black;
+}
+
+/* ACTIVITES */
+
+.blocactivity{
+    height: 600px;
+     background-color: white;
+     width: 100%;
+}
+
+.cubactivity{
+    border-radius: 20px;
+    width: 23%;
+    height: auto;
+    background-color: white;
+    padding: 2px;
+    box-shadow: 5px 5px 5px 1px #F2F2F2 ;
+    }
+
+    .cubactivity:hover{
+        cursor: pointer;
+        transform: scale(1.05);
+    }
+
+    .singlecube{
+        border-radius: 20px;
+        height: auto;
+        background-color: white;
+        padding: 2px;
+        box-shadow: 5px 5px 5px 1px #F2F2F2 ;
+        width: 100%;
+        }
+
+        .singlecube:hover{
+            cursor: pointer;
+            transform: scale(1.05);
+        }
+
+.section2{
+    margin-bottom: 40px;
+}
+
+.bloc2act{
+    margin-bottom: 25px;
+}
+
+.bloc3act{
+margin-top: 25px;
+}
+
+.activityfterimage{
+   height: 50px;
+   display: flex;
+   justify-self: start;
+   align-items: center;
+   margin-left: 20px;
+}
+
+
+.activityHeading{
+    padding: 20px;
+}
+
+.img10{
+    background-image: url("../images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 530px;
+    border-radius : 15px 15px 0 0;
+}
+
+.img11{
+    background-image: url("../images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 210px;
+    border-radius: 15px 15px 0 0;
+}
+
+.img12{
+    background-image: url("../images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 210px;
+    border-radius: 15px 15px 0 0;
+}
+
+
+.img13{
+    background-image: url("../images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 530px;
+    border-radius: 15px 15px 0 0;
+}
+
+.img14{
+    background-image: url("../images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 210px;
+    border-radius: 15px 15px 0 0;
+}
+
+.img15{
+    background-image: url("../images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg ");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 210px;
+    border-radius: 15px 15px 0 0;
+}
+
+.color{
+   color: #0065FC;
+}
+
+.colorW{
+    color:#F2F2F2;
+}
+
+/* FOOTER */
+
+.footer{
+    height: 300px;
+    background-color: #F2F2F2;
+    margin-top: 10%;
+
+}
+
+
+.margfoot{
+    margin-left: 5%;
+    margin-right: 15%;
+
+}
+
+.liststyle{
+    list-style: none;
+}
+
+.taille{
+    height: 150px;
+    align-items: center;
+}
+
+li{
+    padding: 10px;
+}
+
+.para2{
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
+footer h4{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.FOOTLINKS{
+    text-decoration: none;
+    color: black;
+
+}
+
+
+/*RESPONSIVE */
+
+@media all and (max-width: 992px){
+    .mainheading{
+        font-size: 20px;
+    }
+
+/* filter */
+
+    .withfilter{
+        width: 80%;
+    }
+
+    /* hebergement */
+
+    .cubhebergement{
+        height: 100%;
+    }
+
+
+    .paraheading{
+        margin-top: 50px;
+        margin-bottom: 0;
+
+    }
+
+    .paraending{
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+ 
+    /* populaires */
+
+    .cubpopulaires{
+        height: 140px ;
+    }
+    
+    .contentafterimage{
+        margin-bottom: 20px;
+    }
+
+    .blocpopulaires{
+        margin-bottom: 5%;
+    }
+   
+
+    /* activity */
+
+    .activityHeading{
+        margin-bottom: 0;
+      
+    }
+
+    /* footer */
+    .footer{
+        margin-top: 13%;
+    }
+
+
+}
+
+@media all and (max-width: 768px){
+
+    /* NAV */
+
+    .logo{
+        margin-left: 20px;
+    }
+
+    .mainheading{
+        font-size: x-large;
+    }
+
+
+    .linkbox{
+        width: 100%;
+       flex-direction: column;
+       margin-bottom: 40px;
+    }
+
+    .boxlink2{
+        width: 100%;
+        margin: 0;
+       
+    }
+
+    .asizeM{
+        width: 50%;
+        border-top: 0;
+        border-bottom: 5px solid #F2F2F2;
+
+    }
+
+    .asizeM:hover{
+        border-top:0;
+        border-bottom: 5px solid #0065FC;
+
+    }
+
+
+    /* SEARCH BTN */
+   
+    .search{
+        width: 100%;
+        box-shadow: none;
+    }
+
+    .btn{
+        width: 50px;
+        border-radius: 15px;
+    }
+
+    .mobileNone{
+        display: none;
+    }
+
+    
+.deskNone{
+    display: block;
+}
+
+
+    /* filter */
+
+   .mobilewrap{
+       flex-direction: column;
+       align-items: flex-start;
+   }
+
+   .filter{
+       width: 100%;
+   }
+
+   .filtexticon{
+       margin-bottom: 20px;
+   }
+
+
+     /* hebergement */
+
+   #hebergementsmain{
+       flex-direction: column-reverse;
+       width: 100%;
+   }
+
+   .hebergements{
+    flex: none;
+    margin-right: 0;
+    width: 100%;
+
+    margin-top: 30px;
+   }
+
+   .hebergements{
+    height: auto;
+    background-color: white;
+   }
+
+   .bloc1{
+       flex-direction: column;
+       margin-bottom: 0;
+   }
+
+   .bloc2{
+    flex-direction: column;
+    margin-top: 0;
+   }
+
+   .cubhebergement{
+       width: 100%;
+       margin-bottom: 30px;
+   }
+
+
+   /* populaire */
+
+   .populaires{
+    flex: none;
+    margin-left: 0;
+    width: 100%;
+   
+}
+
+
+   /* activity */
+   
+   .blocactivity {
+       flex-direction: column;
+       height: auto;
+   }
+
+
+   
+   .cubactivity{
+       width: 100%;
+       margin-bottom: 30px;
+       height: auto;
+   }
+
+   .singlecube{
+       margin-bottom: 20px;
+       width: 100%;
+   }
+
+   .img10, .img11, .img12, .img13, .img14, .img16{
+       height: 200px;
+   }
+
+    /* footer */ 
+
+   .footer{
+       flex-direction: column;
+       height: auto;
+       align-items: flex-start;
+      padding-left: 40px;
+   }
+
+
+   li{
+       padding: 0;
+       margin-bottom: 10px;
+       flex-wrap: nowrap;
+   }
+   
+   .margfoot{
+       margin: 0;
+   }
+
+   footer h4{
+       margin: 0;
+       margin-top: 20px;
+       margin-bottom: 20px;
+   }
+}
+
+
+
+
